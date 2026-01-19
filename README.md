@@ -6,6 +6,16 @@ End-to-end 2D perception pipeline for KITTI-style data:
 - **Tracking** via SORT (C++)
 - **Visualization** utilities
 
+## Demo videos
+
+https://github.com/user-attachments/assets/d57ef21b-0b4c-4281-894c-2eadc693ad13
+
+
+https://github.com/user-attachments/assets/9c1e1761-9595-4ce1-9084-23099b4c365d
+
+
+https://github.com/user-attachments/assets/53a764a4-bcd8-4760-802e-4b5276a78ab0
+
 This repo is designed for experimentation. Datasets and model weights are
 **not** included and must be provided by you.
 
