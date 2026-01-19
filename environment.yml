@@ -1,0 +1,15 @@
+name: perception2d
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - opencv=4.10
+  - onnx=1.16
+  - onnxruntime=1.18.1
+  - pytorch=2.4
+  - torchvision=0.19
+  - cpuonly
+  - pip
