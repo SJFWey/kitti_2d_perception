@@ -99,8 +99,15 @@ def main():
         "data_root",
         str,
         "",
-        fallback_sections=[paths_section],
     )
+    if not data_root_value:
+        data_root_value = cfg_get(
+            cfg,
+            paths_section,
+            "kitti_detection_root",
+            str,
+            "",
+        )
     if not data_root_value:
         errors.append(
             "Missing required parameter: data_root. "
